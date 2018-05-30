@@ -6,9 +6,9 @@ Euskadiko Lanbide Heziketako ikastetxeetatik abiatzen dugun ekimena da, baina ed
 
 Helburua: Gure sareetako Windows PCetan instalatzen ditugun hainbat programa teknikoen "silent" moduko instalazio automatikoak egin ahal izatea.
 
-Programak azpikarpetetan antolatuko ditugu. Eskema honetan programak instalatzeko behar diren instalazio karpetak sareko "file server" edo fitxategi zerbitzari batean daudela suposatzen dugu. Script-etan FILESERVER aldagaia erabiliko dugu, gero bakoitzak hau bere sarean duen IP edo zerbitzari izena jarri beharko du.
+Programak azpikarpetetan antolatuko ditugu. Eskema honetan programak instalatzeko behar diren instalazio karpetak sareko "file server" edo fitxategi zerbitzari batean daudela suposatzen dugu. Script-etan INST_SHARE aldagaia erabiliko dugu, gero bakoitzak hau bere sarean duen IP\SHARE Jarri beharko du.
 
-Suposatzen dugu ere FILESERVER horretan programa bakoitza instalatzeko behar den guztia karpeta edo PATH zehatz batean egongo dela, beraz INSTFOLDER aldagaia erabiliko dugu hau zehazteko.
+Suposatzen dugu ere SHARE horretan programa bakoitza instalatzeko behar den guztia karpeta edo PATH zehatz batean egongo dela, beraz INST_PATH aldagaia erabiliko dugu hau zehazteko.
 
 Programa bakoitzak bere berezitasun propioak izango dituenez, bere karpetan azalduko dira instalazio konkretu horretarako kontutan hartu beharrekoak.
 
